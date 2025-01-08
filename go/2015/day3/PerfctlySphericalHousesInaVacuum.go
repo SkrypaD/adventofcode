@@ -11,7 +11,7 @@ type Square struct {
 }
 
 func GetVisitedHouses() int {
-    return navigate(GetString("directions.txt"))
+    return navigate(GetString("./day3/input.txt"))
 }
 
 

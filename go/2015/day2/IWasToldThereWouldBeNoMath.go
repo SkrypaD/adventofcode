@@ -10,7 +10,7 @@ import (
 )
 
 func TotalOrder() int64 {
-    file, err := os.Open("order.txt")
+    file, err := os.Open("./day2/input.txt")
     if err != nil {
         return -1 
     }

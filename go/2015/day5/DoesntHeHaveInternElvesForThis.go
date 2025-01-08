@@ -7,7 +7,7 @@ import (
     "bufio"
 )
 func CountNiceStrings()  int64 {
-    file, err := os.Open("strings.txt")
+    file, err := os.Open("input.txt")
     if err != nil {
         return -1  
     }
