@@ -2,10 +2,10 @@ package main
 
 import (
     "fmt"
-    "github.com/SkrypaD/adventofcode/day8"
+    "github.com/SkrypaD/adventofcode/day9"
 )
 
 func main() {
     fmt.Println("Hello world")
-    day8.GetStringLiteralsNumber()
+    day9.GetCitiesConnections()
 }
